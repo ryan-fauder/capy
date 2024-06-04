@@ -14,103 +14,196 @@ Além disso, a loja valoriza a personalização e a praticidade, oferecendo recu
 
 ##  Diagrama
 
-[![](https://mermaid.ink/img/pako:eNqNVUtu2zAQvYrAVZvaRuK4SqxdkaRAFwUMpO2iVRcDcqwQFTkORQX5wAfqOXqxUNQHkkzV4UYjzuNwPm-GL4yTQJYwnkNRXEvIDKhUR275neh7UYKRFL3Um9X6EGlSmESFNVJn_X3UAg1yCuk4aQs2qAIhuSQN5hNdgXHaO3r3vg_YwjOaDQopRgqB8tEde4BcAodOua8__Tg2hkRp3xiHwIIb6QyGlLs6wm1OYPv7FhQ4z8Oxm-A2WMzISEiiq1acDKDNzDVekdoZKPqhzCNpURdJG-av38H8frGohgk0qOgBAwoOOS9zMN_IQv6_vPqqDNPqfakVEx61RLnR1mAGoeQotCRoAxko1BVvOrGPKhynymJ4PuRle3ZU_1KhqThnw6UWYOGH45YAgeG6CpnRLWalAc3hqBtdlY_RMHC2I_nwrFfKrSOrp6vUduhgFXXVwMd9K3ekRrZ9eFMNQr4qB20wnbPApTeFpfsSh9fel6CtP38tix1p-YD5QWQ5OYbKZzho0sAtn0td8_-tc4yDCcedUyZ1SFGgvjusfy20IzRlZymL5nMnnC4WJ06ue2SMapR9YFf8YxZ9FYcgpz6YHTWinYk9M5UwmkUTqJFLE6imwDXmcIT10D4ftZHGYj1ZRgZHU6AD9ZNW4Xo1b-vQYE8cprnIzV3H4n9_1ZR_NIlt4yWf3m6Ob9C44ccxcsljM-bGiwIp3PvqeZcye4cKU5Y4UYD5k7JU7x0OnKnbJ81ZYk2JM1buXBth8xyzZAt54XZ3oH8SDf5Z8sIeWTKPF2u34vjicn16ulqt4hl7Ysn5avFxeR6v4-XF8mJ9uVzG-xl79ibOZsylw5L52rz_1Wf_Ctnpaa4?type=png)](https://mermaid.live/edit#pako:eNqNVUtu2zAQvYrAVZvaRuK4SqxdkaRAFwUMpO2iVRcDcqwQFTkORQX5wAfqOXqxUNQHkkzV4UYjzuNwPm-GL4yTQJYwnkNRXEvIDKhUR275neh7UYKRFL3Um9X6EGlSmESFNVJn_X3UAg1yCuk4aQs2qAIhuSQN5hNdgXHaO3r3vg_YwjOaDQopRgqB8tEde4BcAodOua8__Tg2hkRp3xiHwIIb6QyGlLs6wm1OYPv7FhQ4z8Oxm-A2WMzISEiiq1acDKDNzDVekdoZKPqhzCNpURdJG-av38H8frGohgk0qOgBAwoOOS9zMN_IQv6_vPqqDNPqfakVEx61RLnR1mAGoeQotCRoAxko1BVvOrGPKhynymJ4PuRle3ZU_1KhqThnw6UWYOGH45YAgeG6CpnRLWalAc3hqBtdlY_RMHC2I_nwrFfKrSOrp6vUduhgFXXVwMd9K3ekRrZ9eFMNQr4qB20wnbPApTeFpfsSh9fel6CtP38tix1p-YD5QWQ5OYbKZzho0sAtn0td8_-tc4yDCcedUyZ1SFGgvjusfy20IzRlZymL5nMnnC4WJ06ue2SMapR9YFf8YxZ9FYcgpz6YHTWinYk9M5UwmkUTqJFLE6imwDXmcIT10D4ftZHGYj1ZRgZHU6AD9ZNW4Xo1b-vQYE8cprnIzV3H4n9_1ZR_NIlt4yWf3m6Ob9C44ccxcsljM-bGiwIp3PvqeZcye4cKU5Y4UYD5k7JU7x0OnKnbJ81ZYk2JM1buXBth8xyzZAt54XZ3oH8SDf5Z8sIeWTKPF2u34vjicn16ulqt4hl7Ysn5avFxeR6v4-XF8mJ9uVzG-xl79ibOZsylw5L52rz_1Wf_Ctnpaa4)
+![Capy Diagrama de Classe](/assets/capy-diagrama-classe.png "Capy Diagrama de Classe")
 
 ## Mermaid
 
+[![](https://mermaid.ink/img/pako:eNqtF9tu2zb0VwQ-bZhTtG7mNEJRQLOVwEB8ge0ExeCXM_JEISqRLkUFbYJ80L5jP7aji22Jpg0_VC8mz_1-6FfGtUAWMp5Cno8kJAaytQroqyBBrAQa5Dp4raHl9weXAgSGQW6NVEkLgbkFoT0IjhsfVGebFDNU1sejigyND5FqslLowkW-rVXb9GGx0VnXbi1k4pMoMOe6suIvmYyQywzSNhosPEDaeH2nOaQjsOjVep8XYKQTL5INfh915o1jBjL1wHNUT-CBg5BcagUm0kMwhHzSv_3ewj_CC5o5Cim6cIHyBzE9k2_AYYdzXNrhu06VOPkoeYkJA6lsN7OU1TIQp1PUGDvCIZWCgY6CnVNji1nHbIOZfsZDOOWFFymYlbaQHnGmjkJHERWtLfJTYf21FkACVc2T99YJal3zNcJXp51CPBHY0jCPp98LULbinhstCtvOm2tlTXBe_xwp4wwMBy_copGQHulEIzmcrpubQtWJcRrtF7UTBwEEBNMEoZNiqhXKwIsf2dSFl29bTA0yzq3-XuAJdh_FTsqQYphoiqJTf43l1fDzyT5EoHqWYG4QxT_Avx0Mg67Ty6pXuqPESU5j9pHCG8l8o5V8xtSdGeRMgpl3TRgPlOzU5gGVgLmm2VYWmnd4FxvqGhSRPZjcezHDgmw-KubQP5l26u7zZ6waFyyl5suXPWIYLe-ju_09Xs5ni9X4YbYH3cwWkw7JXXwbTVexV_UKMqBxWZp5lv75vHXeHyf7423r2Dp_3V4cA25R0Xw6S_ckWg7v78bTtq_xZDztQO6n4-Uy_npsOSTnqYpW8XQU74JWebuYzRfjeBUtxi11t_FyNVs42nZPnDX7sGbBxUVz2G7yMBjS_v7v3-ZdVD8r1kxtacvDwSILg2iT0hyrebaiWhpKrmZCh8ECq-46SexRcQ7bfnk79I1y1yRnOTnO-5la28ahb2Gc6G73ixtd18uzVW0FOnqabg2Duc7zQp6kbaqbaNFYVByPUqtacjXnuqLbq8kRXxf0WeSqG6Fmqp80vj0b9jpYj1HH0P4T9MivemnN7BO9udcspKMA823N1uqN6ICELn8qzkJrCuwxo4vkiYWPkOZ0q8do8w9hS7IB9bfW2Y6I7ix8ZT9YeDF4d03fYHD16fr9-8vLy0GP_WThx8t3f_Y_Dq4H_av-1fWnfn_w1mMvlYgPPUZ5tdpMmn8k5c_b_zK1ydo?type=png)](https://mermaid.live/edit#pako:eNqtF9tu2zb0VwQ-bZhTtG7mNEJRQLOVwEB8ge0ExeCXM_JEISqRLkUFbYJ80L5jP7aji22Jpg0_VC8mz_1-6FfGtUAWMp5Cno8kJAaytQroqyBBrAQa5Dp4raHl9weXAgSGQW6NVEkLgbkFoT0IjhsfVGebFDNU1sejigyND5FqslLowkW-rVXb9GGx0VnXbi1k4pMoMOe6suIvmYyQywzSNhosPEDaeH2nOaQjsOjVep8XYKQTL5INfh915o1jBjL1wHNUT-CBg5BcagUm0kMwhHzSv_3ewj_CC5o5Cim6cIHyBzE9k2_AYYdzXNrhu06VOPkoeYkJA6lsN7OU1TIQp1PUGDvCIZWCgY6CnVNji1nHbIOZfsZDOOWFFymYlbaQHnGmjkJHERWtLfJTYf21FkACVc2T99YJal3zNcJXp51CPBHY0jCPp98LULbinhstCtvOm2tlTXBe_xwp4wwMBy_copGQHulEIzmcrpubQtWJcRrtF7UTBwEEBNMEoZNiqhXKwIsf2dSFl29bTA0yzq3-XuAJdh_FTsqQYphoiqJTf43l1fDzyT5EoHqWYG4QxT_Avx0Mg67Ty6pXuqPESU5j9pHCG8l8o5V8xtSdGeRMgpl3TRgPlOzU5gGVgLmm2VYWmnd4FxvqGhSRPZjcezHDgmw-KubQP5l26u7zZ6waFyyl5suXPWIYLe-ju_09Xs5ni9X4YbYH3cwWkw7JXXwbTVexV_UKMqBxWZp5lv75vHXeHyf7423r2Dp_3V4cA25R0Xw6S_ckWg7v78bTtq_xZDztQO6n4-Uy_npsOSTnqYpW8XQU74JWebuYzRfjeBUtxi11t_FyNVs42nZPnDX7sGbBxUVz2G7yMBjS_v7v3-ZdVD8r1kxtacvDwSILg2iT0hyrebaiWhpKrmZCh8ECq-46SexRcQ7bfnk79I1y1yRnOTnO-5la28ahb2Gc6G73ixtd18uzVW0FOnqabg2Duc7zQp6kbaqbaNFYVByPUqtacjXnuqLbq8kRXxf0WeSqG6Fmqp80vj0b9jpYj1HH0P4T9MivemnN7BO9udcspKMA823N1uqN6ICELn8qzkJrCuwxo4vkiYWPkOZ0q8do8w9hS7IB9bfW2Y6I7ix8ZT9YeDF4d03fYHD16fr9-8vLy0GP_WThx8t3f_Y_Dq4H_av-1fWnfn_w1mMvlYgPPUZ5tdpMmn8k5c_b_zK1ydo)
+
+
 ```jsx
+
 classDiagram
-    class Usuario {
-        + nome: string
-        + endereco: string
-        + contato: string
-        + adicionarAoCarrinho()
-        + fazerPedido()
-        + deixarAvaliacao()
+    class Endereco {
+        +cidade: string
+        +estado: string
+        +cep: string
+        +complemento: string
+        +numero: string
+        +logradouro: string
     }
-    
-    class Produto {
-        + nome: string
-        + descricao: string
-        + preco: float
-        + tamanho: string
-        + cor: string
-        + categoria: Categoria
-    }
-    
-    class CarrinhoDeCompras {
-        - itens: Produto[]
-        + adicionarItem()
-        + removerItem()
-        + calcularTotal()
-    }
-    
-    class Pedido {
-        + itensPedido: Produto[]
-        + enderecoEntrega: string
-        + metodoPagamento: Pagamento
-        + status: string
-    }
-    
-    class Pagamento {
-        + numeroCartao: string
-        + dataValidade: string
-        + codigoSeguranca: string
-    }
-    
-    class Categoria {
-        + nome: string
-    }
-    
-    class Avaliacao {
-        + classificacao: int
-        + comentario: string
-    }
-    
+
     class Cupom {
-        + codigo: string
-        + desconto: float
-        + dataValidade: string
+        +codigo: string
+        +desconto: BigDecimal
+        +dataValidade: LocalDate
     }
-    
-    class Estoque {
-        + quantidadeDisponivel: int
-        + localizacao: string
+
+    class Usuario {
+        +contato: string
+        +nome: string
+        +email: string
+        +senha: string
+        +adicionarAoCarrinho()
+        +fazerPedido()
+        +deixarAvaliacao()
     }
-    
+
+    class Avaliacao {
+        +classificacao: int
+        +comentario: string
+    }
+
+    class CarrinhoDeCompra {
+        +adicionarItem()
+        +removerItem()
+        +calcularTotal()
+    }
+
+    class Pedido {
+        +status: string
+        +adicionarItem()
+        +removerItem()
+        +calcularTotal()
+    }
+
+    class PagamentoCartao {
+        +numeroCartao: string
+        +dataValidade: string
+    }
+
+    class ItemPedido {
+        +quantidadeProduto: int
+    }
+
+    class Produto {
+        +codigo: string
+        +nome: string
+        +marca: string
+        +material: string
+        +descricao: string
+    }
+
     class Funcionario {
-        + nome: string
-        + cargo: string
-        + login: string
-        + senha: string
+        +nome: string
+        +email: string
+        +senha: string
+        +cadastrarProduto()
+        +atualizarProduto()
+        +removerProduto()
+        +adicionarProdutoEstoque()
+        +removerProdutoEstoque()
+        +adicionarCategoria()
+        +cadastrarCupom()
+        +removerCupom()
+        +enviarFeedbackAvaliacao()
+        +atualizarStatusPedido()
     }
 
-    Usuario "1" -- "0..*" Pedido
-    Usuario "0..*" -- "0..*" Avaliacao
-    Usuario "1" -- "0..*" Cupom
-    Usuario -- CarrinhoDeCompras
-    Produto "1" -- "1" Categoria
-    Produto "1" -- "1" Avaliacao
-    Produto "1" -- "1" Estoque
-    CarrinhoDeCompras "1" -- "*" Produto
-    Pedido "1" -- "1" Pagamento
-    Pedido "0..*" -- "1" Funcionario
+    class Estoque {
+        +quantidadeDisponivel: int
+        +origem: string
+        +cor: string
+        +valorVendaPorPeca: BigDecimal
+        +updatedAt: LocalDate
+        +valorCustoPorPeca: BigDecimal
+    }
 
-    Pedido *-- Produto: Contém
-    CarrinhoDeCompras o-- Produto: Contém
-    Produto o-- Categoria: Pertence a
+    class Estilo {
+        <<enumeration>>
+        CASUAL
+        ESPORTIVO
+        FORMAL
+        ELEGANTE
+    }
+
+    class TamanhoPeca {
+        <<enumeration>>
+        PP
+        P
+        M
+        G
+        GG
+        XGG
+    }
+
+    class Genero {
+        <<enumeration>>
+        MASCULINO
+        FEMININO
+        UNISSEX
+    }
+
+    class Cargo {
+        <<enumeration>>
+        ATENDENTE
+        PROPRIETARIO
+        GESTOR
+    }
+
+    Endereco "1" -- "1" Usuario : Contém
+    Cupom "n" -- "n" CarrinhoDeCompra : Aplica
+    Usuario "1" -- "n" Pedido : Realiza
+    Usuario "1" -- "n" CarrinhoDeCompra : Realiza
+    Usuario "1" -- "n" Avaliacao : Realiza
+    Pedido "1" -- "n" PagamentoCartao : Contém
+    Pedido "1" -- "n" ItemPedido : Contém
+    ItemPedido "1" -- "1" Produto : Contém
+    CarrinhoDeCompra "1" -- "n" ItemPedido : Contém
+    Produto "1" -- "1" Estilo : Possui
+    Produto "1" -- "1" Genero : Pertence
+    Produto "1" -- "n" Estoque : Possui
+    Funcionario "1" -- "1" Cargo : Possui
+    Funcionario "1" -- "n" Produto : Cadastra
+    Produto "1" -- "1" TamanhoPeca : Possui
 
 ```
 
 ## Classes
 
-1. **Usuário**: Representa os usuários que interagem com o site, contendo informações como nome, endereço, informações de contato, etc.
-2. **Produto**: Esta classe representa os produtos disponíveis para compra na loja de roupas. Pode conter atributos como nome do produto, descrição, preço, tamanho, cor, etc.
-3. **Carrinho de Compras**: Uma classe que representa o carrinho de compras de um usuário. Pode conter uma lista de itens que o usuário adicionou ao carrinho, métodos para adicionar/remover itens e calcular o total.
-4. **Pedido**: Representa um pedido feito por um usuário. Pode conter informações como lista de itens pedidos, endereço de entrega, método de pagamento, status do pedido, etc.
-5. **Pagamento**: Uma classe que representa as informações de pagamento associadas a um pedido. Pode incluir detalhes como número do cartão de crédito, data de validade, código de segurança, etc.
-6. **Categoria**: Esta classe representa as categorias às quais os produtos pertencem, como roupas masculinas, femininas, infantis, calçados, etc.
-7. **Avaliação**: Uma classe que representa as avaliações deixadas pelos usuários para os produtos. Pode conter informações como a classificação (por exemplo, de 1 a 5 estrelas) e comentários.
-8. **Cupom**: Uma classe que representa os cupons de desconto que os usuários podem aplicar aos pedidos. Pode conter informações como código do cupom, porcentagem de desconto, data de validade, etc.
-9. **Estoque**: Representa o estoque disponível de cada produto. Pode incluir informações como quantidade disponível, localização no armazém, etc.
-10. **Funcionário**: Uma classe que representa os funcionários da loja. Pode conter informações como nome, cargo, login, senha, etc.
+### Descrição das Classes
+
+**Endereco**
+- A classe `Endereco` representa o endereço de um usuário, contendo detalhes como cidade, estado, CEP, complemento, número e logradouro. Esta classe é utilizada para armazenar e manipular informações de localização do usuário.
+
+**Cupom**
+- A classe `Cupom` representa um cupom de desconto que pode ser aplicado a uma compra. Inclui informações como código do cupom, valor do desconto e data de validade. Os cupons são usados para fornecer descontos aos usuários nas suas compras.
+
+**Usuario**
+- A classe `Usuario` representa um cliente do sistema. Inclui atributos como contato, nome, email e senha. Possui métodos para adicionar itens ao carrinho, fazer pedidos e deixar avaliações. Esta classe gerencia as interações do usuário com o sistema de compras.
+
+**Avaliacao**
+- A classe `Avaliacao` permite que os usuários deixem feedback sobre produtos. Inclui atributos como classificação (rating) e comentário. Esta classe ajuda a coletar opiniões dos usuários sobre os produtos oferecidos.
+
+**CarrinhoDeCompra**
+- A classe `CarrinhoDeCompra` representa o carrinho de compras de um usuário, onde os itens podem ser adicionados, removidos e o total calculado. Esta classe é fundamental para a etapa de pré-compra, permitindo ao usuário selecionar os produtos que deseja comprar.
+
+**Pedido**
+- A classe `Pedido` representa um pedido realizado por um usuário. Inclui atributos como status do pedido e possui métodos para adicionar itens, remover itens e calcular o total do pedido. Esta classe gerencia o ciclo de vida do pedido desde a criação até a conclusão.
+
+**PagamentoCartao**
+- A classe `PagamentoCartao` armazena informações de pagamento realizadas com cartão de crédito ou débito. Inclui atributos como número do cartão e data de validade. Esta classe é usada para processar pagamentos de pedidos.
+
+**ItemPedido**
+- A classe `ItemPedido` representa um item específico em um pedido. Inclui a quantidade do produto pedido. Esta classe permite o detalhamento dos produtos incluídos em um pedido.
+
+**Produto**
+- A classe `Produto` representa os produtos disponíveis para compra no sistema. Inclui atributos como código, nome, marca, material e descrição. Esta classe define as características dos produtos oferecidos aos usuários.
+
+**Funcionario**
+- A classe `Funcionario` representa um funcionário do sistema, responsável por gerenciar produtos, estoques e cupons, além de enviar feedback sobre avaliações e atualizar o status dos pedidos. Inclui atributos como nome, email e senha. Os funcionários desempenham funções administrativas no sistema.
+
+**Estoque**
+- A classe `Estoque` controla a disponibilidade de produtos no estoque. Inclui atributos como quantidade disponível, origem, cor, valor de venda por peça, data da última atualização e valor de custo por peça. Esta classe ajuda a gerenciar o inventário de produtos.
+
+**Estilo**
+- A enumeração `Estilo` define os diferentes estilos de produtos que podem ser oferecidos, como casual, esportivo, formal e elegante. Esta enumeração ajuda a categorizar produtos com base em seu estilo.
+
+**TamanhoPeca**
+- A enumeração `TamanhoPeca` define os diferentes tamanhos de peças de roupas, como PP, P, M, G, GG e XGG. Esta enumeração é usada para especificar as variações de tamanho dos produtos.
+
+**Genero**
+- A enumeração `Genero` define os diferentes gêneros para os quais os produtos podem ser destinados, como masculino, feminino e unissex. Esta enumeração ajuda a categorizar produtos com base no gênero.
+
+**Cargo**
+- A enumeração `Cargo` define os diferentes cargos que um funcionário pode ocupar, como atendente, proprietário e gestor. Esta enumeração é usada para diferenciar as responsabilidades e funções dos funcionários no sistema.
