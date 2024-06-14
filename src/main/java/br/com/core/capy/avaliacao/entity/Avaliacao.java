@@ -1,5 +1,7 @@
 package br.com.core.capy.avaliacao.entity;
 
+import br.com.core.capy.produtodescricao.entity.ProdutoDescricao;
+import br.com.core.capy.usuario.entity.Usuario;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -24,4 +26,12 @@ public class Avaliacao {
 
     @Column(name = "COMENTARIO")
     private String comentario;
+
+    @ManyToOne
+    @JoinColumn(name = "COD_USUARIO", nullable = false, foreignKey = @ForeignKey(name = "FK_AVALIACAO_USUARIO"))
+    private Usuario usuario;
+
+    @ManyToOne
+    @JoinColumn(name = "COD_PRODUTO", nullable = false, foreignKey = @ForeignKey(name = "FK_AVALIACAO_PRODUTODESCRICAO"))
+    private ProdutoDescricao produtoDescricao;
 }

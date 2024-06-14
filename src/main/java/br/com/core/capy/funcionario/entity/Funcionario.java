@@ -1,8 +1,17 @@
 package br.com.core.capy.funcionario.entity;
 
+import br.com.core.capy.cupom.entity.Cupom;
 import br.com.core.capy.funcionario.enumx.Cargo;
+import br.com.core.capy.movimentacaoestoque.entity.MovimentacaoEstoque;
+import br.com.core.capy.produtodescricao.entity.ProdutoDescricao;
 import jakarta.persistence.*;
 import lombok.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import static jakarta.persistence.CascadeType.ALL;
+import static jakarta.persistence.FetchType.LAZY;
 
 @Getter
 @Setter
@@ -33,4 +42,12 @@ public class Funcionario {
     @Column(name = "SENHA", nullable = false)
     private String senha;
 
+    @OneToMany(fetch = LAZY, cascade = ALL, orphanRemoval = true, mappedBy = "funcionario")
+    private List<ProdutoDescricao> produtoDescricaos = new ArrayList<>();
+
+    @OneToMany(fetch = LAZY, cascade = ALL, orphanRemoval = true, mappedBy = "funcionario")
+    private List<Cupom> cupoms = new ArrayList<>();
+
+    @OneToMany(fetch = LAZY, cascade = ALL, orphanRemoval = true, mappedBy = "funcionario")
+    private List<MovimentacaoEstoque> movimentacaoEstoques = new ArrayList<>();
 }

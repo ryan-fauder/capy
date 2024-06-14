@@ -1,5 +1,6 @@
 package br.com.core.capy.cupom.entity;
 
+import br.com.core.capy.funcionario.entity.Funcionario;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -30,5 +31,10 @@ public class Cupom {
 
     @Column(name = "DATA_VALIDADE")
     private LocalDate dataValidade;
+
+    @ManyToOne
+    @JoinColumn(name = "COD_FUNCIONARIO", nullable = false, foreignKey = @ForeignKey(name = "FK_CUPOM_FUNCIONARIO"))
+    private Funcionario funcionario;
+
 
 }
