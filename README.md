@@ -14,7 +14,7 @@ Além disso, a loja valoriza a personalização e a praticidade, oferecendo recu
 
 ##  Diagrama
 
-![Capy Diagrama de Classe](/assets/capy.png "Capy Diagrama de Classe")
+![Capy Diagrama de Classe](/assets/capy.jpg "Capy Diagrama de Classe")
 
 ```jsx
 
