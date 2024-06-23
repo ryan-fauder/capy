@@ -1,4 +1,7 @@
 # capy
+
+![Capy Logo](/assets/logo.png "Capy - Logo")
+
 Loja de roupas online Capy
 
 

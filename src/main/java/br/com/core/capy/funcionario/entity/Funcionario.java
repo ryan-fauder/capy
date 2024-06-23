@@ -2,8 +2,8 @@ package br.com.core.capy.funcionario.entity;
 
 import br.com.core.capy.cupom.entity.Cupom;
 import br.com.core.capy.funcionario.enumx.Cargo;
-import br.com.core.capy.movimentacaoestoque.entity.MovimentacaoEstoque;
-import br.com.core.capy.produtodescricao.entity.ProdutoDescricao;
+import br.com.core.capy.estoque.entity.Estoque;
+import br.com.core.capy.produto.entity.Produto;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -43,11 +43,11 @@ public class Funcionario {
     private String senha;
 
     @OneToMany(fetch = LAZY, cascade = ALL, orphanRemoval = true, mappedBy = "funcionario")
-    private List<ProdutoDescricao> produtoDescricaos = new ArrayList<>();
+    private List<Produto> produtos = new ArrayList<>();
 
     @OneToMany(fetch = LAZY, cascade = ALL, orphanRemoval = true, mappedBy = "funcionario")
     private List<Cupom> cupoms = new ArrayList<>();
 
     @OneToMany(fetch = LAZY, cascade = ALL, orphanRemoval = true, mappedBy = "funcionario")
-    private List<MovimentacaoEstoque> movimentacaoEstoques = new ArrayList<>();
+    private List<Estoque> estoques = new ArrayList<>();
 }

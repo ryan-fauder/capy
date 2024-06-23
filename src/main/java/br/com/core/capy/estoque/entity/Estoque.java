@@ -1,11 +1,17 @@
 package br.com.core.capy.estoque.entity;
-
-import br.com.core.capy.estoque.enumx.Tamanho;
+import br.com.core.capy.carrinho.entity.CarrinhoDeCompra;
+import br.com.core.capy.funcionario.entity.Funcionario;
+import br.com.core.capy.produto.entity.Produto;
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+import static jakarta.persistence.CascadeType.ALL;
+import static jakarta.persistence.FetchType.LAZY;
 
 @Getter
 @Setter
@@ -23,26 +29,20 @@ public class Estoque {
     @Column(name = "COD_ESTOQUE", nullable = false)
     private Long id;
 
-    @Column(name = "QUANTIDADE_DISPONIVEL", nullable = false)
-    private int quantidadeDisponivel;
+    @Column(name = "QUANTIDADE", nullable = false)
+    private int quantidade;
 
     @Column(name = "ORIGEM")
     private String origem;
-
-    @Enumerated(EnumType.STRING)
-    @Column(name = "TAMANHO", nullable = false)
-    private Tamanho tamanho;
-
-    @Column(name = "COR", nullable = false)
-    private String cor;
-
-    @Column(name = "VALOR_VENDA", nullable = false)
-    private BigDecimal valorVendaPorPeca;
 
     @Column(name = "VALOR_CUSTO", nullable = false)
     private BigDecimal valorCustoPorPeca;
 
     @Column(name = "UPDATE_AT", nullable = false)
     private LocalDate updatedAt;
+
+    @ManyToOne
+    @JoinColumn(name = "COD_FUNCIONARIO", nullable = false, foreignKey = @ForeignKey(name = "FK_ESTOQUE_FUNCIONARIO"))
+    private Funcionario funcionario;
 
 }

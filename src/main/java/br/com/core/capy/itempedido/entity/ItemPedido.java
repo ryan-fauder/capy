@@ -2,7 +2,7 @@ package br.com.core.capy.itempedido.entity;
 
 import br.com.core.capy.carrinho.entity.CarrinhoDeCompra;
 import br.com.core.capy.pedido.entity.Pedido;
-import br.com.core.capy.produtodescricao.entity.ProdutoDescricao;
+import br.com.core.capy.produto.entity.Produto;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -34,7 +34,7 @@ public class ItemPedido {
     private Pedido pedido;
 
     @ManyToOne
-    @JoinColumn(name = "COD_PRODUTO", nullable = false, foreignKey = @ForeignKey(name = "FK_ITEMPEDIDO_PRODUTODESCRICAO"))
-    private ProdutoDescricao produtoDescricao;
+    @JoinColumn(name = "COD_PRODUTO", nullable = false, foreignKey = @ForeignKey(name = "FK_ITEMPEDIDO_PRODUTO"))
+    private Produto produto;
 
 }
