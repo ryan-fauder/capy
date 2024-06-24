@@ -1,8 +1,12 @@
 # capy
 
-![Capy Logo](/assets/logo.png "Capy - Logo")
+![Capy Logo](/assets/logo_cropped.png "Capy - Logo")
 
-Loja de roupas online Capy
+Loja de roupas online - Capy
+
+## Protótipo FIGMA
+
+[Acesse o protótipo aqui](https://www.figma.com/design/IVNxMSQZsT2tb0I9FftoTw/Capy---Dashboard?node-id=0-1&t=xdsRXq5AJqaC7UId-0)
 
 
 ## Sobre a loja
