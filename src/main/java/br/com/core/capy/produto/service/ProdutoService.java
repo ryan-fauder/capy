@@ -1,5 +1,6 @@
 package br.com.core.capy.produto.service;
 
+import br.com.core.capy.estoque.entity.Estoque;
 import br.com.core.capy.produto.entity.Produto;
 import br.com.core.capy.produto.mapper.ProdutoMapper;
 import br.com.core.capy.produto.model.ProdutoInput;
@@ -22,6 +23,7 @@ public class ProdutoService {
 
     public ProdutoOutput create(ProdutoInput produtoInput) {
         Produto produto = produtoMapper.toEntity(produtoInput);
+        produto.setEstoque(produtoInput.getEstoque() == null ? new Estoque() : produtoInput.getEstoque());
         return produtoMapper.toOutput(produtoRepository.save(produto));
     }
 

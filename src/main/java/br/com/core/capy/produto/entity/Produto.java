@@ -66,7 +66,10 @@ public class Produto {
     @Column(name = "VALOR_VENDA", nullable = false)
     private BigDecimal valorVendaPorPeca;
 
-    @OneToOne(fetch = LAZY, cascade = ALL)
+    @Column(name = "VALOR_CUSTO", nullable = false)
+    private BigDecimal valorCustoPorPeca;
+
+    @OneToOne(fetch = FetchType.EAGER, cascade = ALL)
     @JoinColumn(name = "COD_ESTOQUE", foreignKey = @ForeignKey(name = "FK_PRODUTO_ESTOQUE"))
     private Estoque estoque;
 

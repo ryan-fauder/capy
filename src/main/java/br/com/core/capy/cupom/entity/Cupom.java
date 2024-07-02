@@ -1,11 +1,15 @@
 package br.com.core.capy.cupom.entity;
 
+import br.com.core.capy.carrinho.entity.CarrinhoDeCompra;
 import br.com.core.capy.funcionario.entity.Funcionario;
+import br.com.core.capy.usuario.entity.Usuario;
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -36,5 +40,9 @@ public class Cupom {
     @JoinColumn(name = "COD_FUNCIONARIO", nullable = false, foreignKey = @ForeignKey(name = "FK_CUPOM_FUNCIONARIO"))
     private Funcionario funcionario;
 
+    @ManyToMany(mappedBy = "cupoms")
+    List<CarrinhoDeCompra> carrinhoDeCompras;
 
+    @ManyToMany(mappedBy = "cupoms")
+    List<Usuario> usuarios;
 }

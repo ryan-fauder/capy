@@ -1,5 +1,6 @@
 package br.com.core.capy.produto.model;
 
+import br.com.core.capy.estoque.entity.Estoque;
 import br.com.core.capy.produto.enumx.Estilo;
 import br.com.core.capy.produto.enumx.Genero;
 import br.com.core.capy.produto.enumx.Tamanho;
@@ -29,4 +30,7 @@ public class ProdutoInput {
 
     private BigDecimal valorVendaPorPeca;
 
+    private BigDecimal valorCustoPorPeca;
+
+    private Estoque estoque;
 }
