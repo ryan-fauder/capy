@@ -1,0 +1,40 @@
+<tui-scrollbar class="box p-4" [hidden]="true">
+  <div class="overflow-auto" style="max-width: 100%;">
+    <table tuiTable tuiScrollable size="s" class="table-fixed w-full border">
+      <thead>
+      <tr tuiThGroup>
+        <ng-container *ngFor="let col of columnsTitle; let i = index">
+          <th tuiTh class="px-2 py-1 border" style="text-align: center;" [style.width]="i === columnsTitle.length - 2 ? '20%' : 'auto'">
+            {{ col }}
+          </th>
+        </ng-container>
+      </tr>
+      </thead>
+      <tbody tuiTbody>
+      <tr *ngFor="let item of data" class="text-nowrap">
+        <td tuiTd class="px-2 py-1 border">{{ item.codigo }}</td>
+        <td tuiTd class="px-2 py-1 border text-wrap">{{ item.nome }}</td>
+        <td tuiTd class="px-2 py-1 border text-wrap">{{ item.marca }}</td>
+        <td tuiTd class="px-2 py-1 border">{{ item.material }}</td>
+        <td tuiTd class="px-2 py-1 border">{{ item.estilo }}</td>
+        <td tuiTd class="px-2 py-1 border">{{ item.genero }}</td>
+        <td tuiTd class="px-2 py-1 border">{{ item.tamanho }}</td>
+        <td tuiTd class="px-2 py-1 border">{{ item.cor }}</td>
+        <td tuiTd class="px-2 py-1 border">R$ {{ item.valorCustoPorPeca | number: '1.2-2' }}</td>
+        <td tuiTd class="px-2 py-1 border">R$ {{ item.valorVendaPorPeca | number: '1.2-2' }}</td>
+        <td tuiTd class="px-2 py-1 border text-wrap" style="width: 30%;">{{ item.descricao }}</td>
+        <td tuiTd class="px-2 py-1 border text-center">
+            <span tuiStatus style="display: flex; justify-content: center">
+              <button class="text-xs p-1">
+                <tui-icon class="text-xs" style="font-size: 16px; font-weight: lighter" icon="tuiIconEdit2" (click)="editar(item.id)"></tui-icon>
+              </button>
+              <button class="text-xs p-1">
+                <tui-icon class="text-xs" style="font-size: 16px; font-weight: lighter" icon="tuiIconTrash" (click)="remover(item.id)"></tui-icon>
+              </button>
+            </span>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</tui-scrollbar>

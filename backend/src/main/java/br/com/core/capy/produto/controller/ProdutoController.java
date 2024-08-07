@@ -12,10 +12,10 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping(path = "/produtos")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ProdutoController {
 
     private final ProdutoService produtoService;
-
 
     @PostMapping()
     public ResponseEntity<ProdutoOutput> create(@RequestBody ProdutoInput input) {

@@ -32,5 +32,5 @@ public class ProdutoInput {
 
     private BigDecimal valorCustoPorPeca;
 
-    private Estoque estoque;
+    private Estoque estoque = null;
 }

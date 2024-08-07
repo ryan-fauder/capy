@@ -1,0 +1,85 @@
+<h1 class="text-xl font-bold pb-3 mb-2 border-b-2">{{ title }}</h1>
+<div class="p-1 flex justify-center">
+  <div class="w-full max-w-3xl">
+    <form [formGroup]="form">
+      <div class="p-2">
+        <div class="mb-2">
+          <h2 class="text-md font-bold mb-2">Informações Básicas</h2>
+          <div class="mb-0.5 flex flex-wrap justify-between">
+            <tui-input tuiTextfieldSize="m" class="w-1/2 p-1" formControlName="codigo">
+              Código
+              <input tuiTextfield type="text"/>
+            </tui-input>
+            <tui-input tuiTextfieldSize="m" class="w-1/2 p-1" formControlName="nome">
+              Nome
+              <input tuiTextfield type="text"/>
+            </tui-input>
+          </div>
+          <div class="mb-0.5 flex flex-wrap justify-between">
+            <tui-input tuiTextfieldSize="m" class="w-1/2 p-1" formControlName="marca">
+              Marca
+              <input tuiTextfield type="text"/>
+            </tui-input>
+            <tui-input tuiTextfieldSize="m" class="w-1/2 p-1" formControlName="material">
+              Material
+              <input tuiTextfield type="text"/>
+            </tui-input>
+          </div>
+        </div>
+
+        <div class="mb-2">
+          <h2 class="text-md font-bold mb-2">Detalhes do Produto</h2>
+          <div class="mb-0.5 flex flex-wrap justify-between">
+            <tui-select tuiTextfieldSize="m" class="w-1/2 p-1" formControlName="estilo">
+              Estilo
+              <input placeholder="Estilo" tuiTextfield/>
+              <tui-data-list-wrapper *tuiDataList [items]="estilos"></tui-data-list-wrapper>
+            </tui-select>
+            <tui-select tuiTextfieldSize="m" class="w-1/2 p-1" formControlName="genero">
+              Gênero
+              <input placeholder="Gênero" tuiTextfield/>
+              <tui-data-list-wrapper *tuiDataList [items]="generos"></tui-data-list-wrapper>
+            </tui-select>
+          </div>
+          <div class="mb-0.5 flex flex-wrap justify-between">
+            <tui-select tuiTextfieldSize="m" class="w-1/2 p-1" formControlName="tamanho">
+              Tamanho
+              <input placeholder="Tamanho" tuiTextfield/>
+              <tui-data-list-wrapper *tuiDataList [items]="tamanhos"></tui-data-list-wrapper>
+            </tui-select>
+            <tui-input tuiTextfieldSize="m" class="w-1/2 p-1" formControlName="cor">
+              Cor
+              <input tuiTextfield type="text"/>
+            </tui-input>
+          </div>
+          <div class="mb-0.5 flex flex-wrap justify-between">
+              <tui-textarea tuiTextfieldSize="m" class="w-full p-1" tuiTextfield formControlName="descricao" [expandable]="true">
+                Descrição
+              </tui-textarea>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="text-md font-bold mb-2">Valores</h2>
+          <div class="mb-0.5 flex flex-wrap justify-between">
+            <tui-input-number tuiTextfieldSize="m" class="w-1/2 p-1" formControlName="valorVendaPorPeca" prefix="R$ ">
+              Valor de Venda por Peça
+            </tui-input-number>
+            <tui-input-number tuiTextfieldSize="m" class="w-1/2 p-1" formControlName="valorCustoPorPeca" prefix="R$ ">
+              Valor de Custo por Peça
+            </tui-input-number>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-between">
+        <button type="button" class="btn btn-ghost text-orange-800 px-6 py-2" (click)="cancel()">
+          Voltar
+        </button>
+        <button type="submit" class="btn bg-orange-400 text-white border-none px-6 py-2" (click)="submit()" [disabled]="!form.valid">
+          {{ buttonTitle }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
