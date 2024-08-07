@@ -8,8 +8,46 @@ Loja de roupas online - Capy
 
 [Acesse o protótipo aqui](https://www.figma.com/design/IVNxMSQZsT2tb0I9FftoTw/Capy---Dashboard?node-id=0-1&t=xdsRXq5AJqaC7UId-0)
 
+## Pré-requisitos
+
+É necessário que tenha Node v20.0.0+, Angular v17.0.0+ e Java v21.0.0+.
+
+## Setup
+
+### Frontend
+Para configurar o frontend, entre na pasta /frontend:
+
+```bash
+    cd frontend
+```
+
+Execute a instalação dos pacotes com o npm:
+```bash
+    npm install
+```
+
+
+### Backend
+Para configurar o frontend, entre na pasta /frontend:
+
+```bash
+    cd backend
+```
+
+Execute a instalação dos pacotes com o maven:
+```bash
+    mvn clean install
+```
+
 ## Como executar
 
+Para executar o frontend, entre na pasta /frontend novamente e rode:
+
+```bash
+    npm run start
+```
+
+Para executar o backend, entre na pasta /backend e utilize o botão de executar do IntelliJ.
 
 ## Sobre a loja
 
