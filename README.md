@@ -4,6 +4,8 @@
 
 Loja de roupas online - Capy
 
+Veja o protótipo ao final desse arquivo.
+
 ## Protótipo FIGMA
 
 [Acesse o protótipo aqui](https://www.figma.com/design/IVNxMSQZsT2tb0I9FftoTw/Capy---Dashboard?node-id=0-1&t=xdsRXq5AJqaC7UId-0)
@@ -249,3 +251,22 @@ classDiagram
 
 **Cargo**
 - A enumeração `Cargo` define os diferentes cargos que um funcionário pode ocupar, como atendente, proprietário e gestor. Esta enumeração é usada para diferenciar as responsabilidades e funções dos funcionários no sistema.
+
+# Protótipo
+
+## Tela inicial
+
+![Inicial](images/home.png)
+
+## Tela de criação de produtos
+
+![Criacao](images/create.png)
+
+## Tela de edição de produto
+
+![Edicao](images/edit.png)
+
+## Tela de edição - Messagem sucesso
+
+![Edicao Sucesso](images/edit-sucess.png)
+
