@@ -41,6 +41,8 @@ Execute a instalação dos pacotes com o maven:
     mvn clean install
 ```
 
+Caso queira utilizar as collections do postman para testar o backend isoladamente e carregar uma base de dados, a collection está disponível em /backend/postmanCollections/
+
 ## Como executar
 
 Para executar o frontend, entre na pasta /frontend novamente e rode:
